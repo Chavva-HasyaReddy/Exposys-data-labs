@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BRRRGRRR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img class="logo-image" src="https://res.cloudinary.com/dvpnscd3m/image/upload/v1716525159/1-2-burger-transparent_uus6uo.png" alt="Logo">
+        </div>    
+        <div class="navbar-center">
+            <h1>BrrrGrrr-Build your Burger</h1>
+        </div>
+        <div class="navbar-right">
+            <a class="a-element" href="#home">Home</a>
+            <a class="a-element" href="#build">Build</a>
+        </div>
+    </div>
+    <div class="home" id="home">
+        <div class="home-left">
+            <h1 class="home-h1">BURGER</h1>
+            <p class="home-p">This website makes your burger tastier, just the way you like it.</p>
+            <div class="services-card">
+                <h1 class="ser-h1">PRICES</h1>
+                <ul class="list">
+                    <li>Bun-------------20</li>
+                    <li>Cucumber-----20</li>
+                    <li>Lettuce--------10</li>
+                    <li>Cheese---------20</li>
+                    <li>Beef----------50</li>
+                    <li>Bow-----------10</li>
+                    <li>Ketchup-------5</li>
+                </ul>
+            </div>      
+        </div>
+        <div class="home-right">
+            <img src="https://res.cloudinary.com/dvpnscd3m/image/upload/v1716527043/burger-ingredients-set-vector-19620540_lwdylo.jpg" width="300" height="500" alt="Burger Ingredients">
+        </div>
+    </div>
+    <div class="services" id="build">
+        <div class="services-left">
+            <div class="menu">
+                <div class="menu-container">
+                    <h3>Ingredients</h3>
+                    <div id="ingredients">
+                        <p class="items" id="cucumber">Cucumber</p>
+                        <p class="items" id="lettuce">Lettuce</p>
+                        <p class="items" id="cheese">Cheese</p>
+                        <p class="items" id="beef">Beef</p>
+                        <p class="items" id="bow">Bow</p>
+                        <p class="items" id="ketchup">Ketchup</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="services-right">
+            <div class="Rectangle2">
+                <div class="container-text">Choose what goes into your burger</div>
+                <div class="button-container">
+                    <div class="button btn-cucumber active">Cucumber</div>
+                    <div class="button btn-lettuce active">Lettuce</div>
+                    <div class="button btn-cheese active">Cheese</div>
+                    <div class="button btn-beef active">Beef</div>
+                    <div class="button btn-bow active">Bow</div>
+                    <div class="button btn-ketchup active">Ketchup</div>
+                </div>
+            </div>    
+            <div class="Rectangle3">
+                <div class="Rectangle4">
+                    <p>Current Order Total</p>
+                    <p class="price-details">Rs 135</p>
+                    <button id="orderButton">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
